@@ -52,7 +52,8 @@
      min-height: 80vh;
      width: 95%;
      max-width: 1600px;
-     background: linear-gradient(#141e30, #03e9f4);
+     /* background: linear-gradient(#141e30, #03e9f4); */
+     background: linear-gradient(#141e30, #ffffff);
      /* background-color: var(--c-gray-800); */
      padding: 2vw 4vw 6vw;
      display: flex;
