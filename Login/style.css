@@ -269,9 +269,22 @@ html {
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: .75s;
+  }
+  .login-box:hover {
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: 15px 15px 15px rgba(0,0,0,.6);
+    border: 1px solid linear-gradient(#141e30, #03e9f4);
+    transition: 1s;
     border-radius: 10px;
   }
   
