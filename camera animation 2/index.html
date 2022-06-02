@@ -9,10 +9,19 @@
   </head>
   <body>
     <h1></h1>
-    <div class="box">
+    <!-- <div class="box">
       <div class="eye"></div>
-    </div>
+    </div> -->
+<div class="vector1">
 
+  <iframe src='https://my.spline.design/demologo-bc1a45b9bc97f35f0d37e0cb5433280f/' frameborder='0' width='100%' height='100%'></iframe>
+  
+
+
+
+
+
+</div>
 
 
 
@@ -29,7 +38,7 @@ document.querySelector('body').addEventListener('mousemove',eyeball)
       let y = (eye.getBoundingClientRect().top) + (eye.clientHeight/2);
 
       let radian = Math.atan2(event.pageX - x,event.pageY - y);
-      
+
       let rotation = (radian * (180 / Math.PI) * -1) + 270;
 
       eye.style.transform = "rotate("+rotation +"deg)"

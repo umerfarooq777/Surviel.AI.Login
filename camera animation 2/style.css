@@ -14,7 +14,7 @@ body{
 
 .box{
 display: flex;
-background:#fff;
+background: linear-gradient(90deg, rgba(187, 187, 187, 0.51) 0%, #F5F5F5 52.09%, rgba(162, 161, 161, 0) 100%);
 position: absolute;
 top: 0%;
 left: auto;
@@ -27,6 +27,7 @@ inset 0 0 15px #f2761e;
 }
 
 .box .eye{
+    /* border: 10px dashed #000; */
 position: relative;
 width: 120px;
 height: 120px;
@@ -59,4 +60,13 @@ box-sizing: border-box;
 
 
 
-
+.vector1 iframe{
+    /* background: red!important; */
+    opacity: 50%;
+}
+.vector1{
+    /* Vector 1 */
+height: 600px;
+width: 600px;
+border: 1px solid #000000;
+}
