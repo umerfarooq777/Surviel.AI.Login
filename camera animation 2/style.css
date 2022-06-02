@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: radial-gradient(#f2761e,#ef4921); 
+}
+
+
+
+.box{
+display: flex;
+background:#fff;
+position: absolute;
+top: 0%;
+left: auto;
+height: 200px;
+width: auto;
+border-radius:0 0 50% 50%;
+box-shadow: 0 5px 45px rgba(0,0,0,0.2),
+inset 0 0 15px #f2761e,
+inset 0 0 15px #f2761e;
+}
+
+.box .eye{
+position: relative;
+width: 120px;
+height: 120px;
+top: 41%;
+left: auto;
+display: block;
+/* background:#cacaca; */
+margin: 0 20px;
+border-radius: 50%;
+box-shadow: 5px 5px 45px rgba(0,0,0,0),
+inset 0 0 1px #f2761e,
+inset 0px 0px 20px #edbd9b;
+}
+
+
+.box .eye::before
+{
+content: '';
+position: absolute;
+top: 50%;
+left:35px;
+transform: translate(-50%,-50%);
+width: 45px;
+height: 45px;
+border-radius: 50%;
+background: #000;
+border: 10px solid rgb(30, 152, 34);
+box-sizing: border-box;
+}
+
+
+
+
