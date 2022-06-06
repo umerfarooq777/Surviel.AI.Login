@@ -261,10 +261,25 @@ html {
 
 
   }
+
+  .camera{
+    background: transparent;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: .75s;
+    border: 1px solid rgba(211, 211, 211, 0.748);
+    z-index: 5;
+  }
   
   .login-box {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     width: 400px;
     padding: 40px;
@@ -272,21 +287,20 @@ html {
     box-sizing: border-box;
     border-radius: 10px;
     transition: .75s;
+    background: rgba(0,0,0,.5);
     border: 1px solid transparent;
   }
   .login-box:hover {
     position: absolute;
-    top: 49%;
-    left: 49%;
+    top: 60%;
+    left: 50%;
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
     box-sizing: border-box;
-    box-shadow: 15px 15px 15px rgba(0,0,0,.6);
+    box-shadow: 0px 15px 15px rgba(0,0,0,.6);
     border:linear-gradient(#03e9f4, #141e30) 1;
     transition: 1s;
-    border-radius: 10px;
   }
   
   .login-box h2 {
